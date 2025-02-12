@@ -45,7 +45,7 @@ function App() {
     const message = "Yes! 🎉 I am ready for the movie date pr date aur time mai bataugii! 🍿❤️";
     const encodedMessage = encodeURIComponent(message);
     window.location.href = `https://wa.me/919541074747?text=${encodedMessage}`;
-}, 2000);
+}, 500);
 
 };
 
